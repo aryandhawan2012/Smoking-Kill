@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Smoking Kills</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="smoking.html">Smoking</a></li>
+                <li class="links"><a href="addiction.html">Addiction</a></li>
+                <li class="links"><a href="chemical.html">Harmful Chemicals and its effects</a></li>
+                <li class="links"><a href="quit.html">SmokeQuit Calculator and Benefits</a></li>
+                <li class="links"><a href="extra.html">More Information</a></li>
+                <li class="links"><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    
+    </nav>
+    <div style="float: left; width: 49%; text-align: left;">
+    <h1 style="text-align: left;">SmokeQuit Calculator</h1>
+    <p id="quitsmoke" style="font-size: 25px;">When you smoke</p>
+    <p>Average amount of nicotine in 1 Cigarette - 12mg</p>
+    <p>Amount of Nicotine inhale by end of each cigarette - 1.8mg</p>
+    <p>1 cigarette shorten life by 11 minutes</p>
+    <p>Average cost of 1 cigarette - $1.75</p>
+    <br><br>
+    <input type="text" id="number" class="form-control" placeholder="Write number of cigarette you smoked per day" style="width: 312px;">
+    <br><br>
+    <input type="text" id="smoked" class="form-control" placeholder="Write the number of years you smoked for" style="width: 290px;">
+    <br>
+    <button onclick="send()" class="btn btn-success" style="margin-left: 1px;">Send</button>
+    <p id="nicotineday"></p>
+    <p id="nicoyear"></p>
+    <p id="short"></p>
+    <p id="short365"></p>
+    <p id="money1"></p>
+    <p id="money365"></p>
+    <p id="moneyspend"></p>
+    <p style="color: green; font-style: italic; font-size: 20px;">By quitting, you can save a significant amount of money that would
+         otherwise be spent on cigarettes.</p>
+    <p style="color: green; font-style: italic; font-size: 20px;">You can use this money for going on a holiday trip,
+         nice dinner at a restaurant, to watch movies with families or friends and so on.....</p>
+    <p style="color: green; font-style: italic; font-size: 20px;">Stopping smoking can benefit your health,
+         your social life as well as your wallet.</p>
+    <br>
+    <p>It's important to note that the benefits of quitting smoking are cumulative and can vary depending on individual circumstances.</p>
+    <p>Seeking support from healthcare professionals, support groups, or cessation programs increases your chances of successfully quitting.
+         You can</p>
+    <p>•	visit <a href="https://besmokefree.com.au/" target="_blank">Be Smoke Free</a></p>
+    <p>•	phone Quitline on 13 78 48</p>
+    <p>•	download My QuitBuddy on:</p>
+    <p><a href="https://apps.apple.com/au/app/quit-now-my-quitbuddy/id527485761" target="_blank">Itunes</a></p>
+    <p><a href="https://play.google.com/store/apps/details?id=com.theprojectfactory.quitbuddy&pli=1" target="_blank">Google Play</a></p>
+    <p><a href="https://apps.microsoft.com/store/apps?hl=en-au&gl=AU&rtc=1" target="_blank">Windows</a></p>
+    <p>•	talk to your GP or health professional.</p>
+    <p>•	keep yourself busy by playing games or talking to your fri.</p>
+    <p>•	watch 5-minute inspirational videos.</p>
+    <p>•	use Nicotine Gums, Mouth Sprays, Lozenges & Inhalators</p>
+    </div>
+    <div style="float: right; width: 48%;">
+        <h2>When you quit</h2>
+        <img src="Quit Smoking Timeline Infographic 75.jpg">
+        <br><br><br><br><br><br><br>
+    </div>
+    <footer>Created By Aryan Dhawan</footer>
+    <script src="main.js"></script>
+</body>
+</html>
